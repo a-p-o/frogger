@@ -2,7 +2,7 @@
   "name": "frogger",
   "homepage": "https://github.com/a-p-o/frogger",
   "authors": [
-    "Alex Ordonez <me@ordonezalex.com>"
+    "Alex Ordonez <me@ordonezalex.com>",
     "Malak Patel <patelmalak@gmail.com>"
   ],
   "description": "A web-based arcade game.",
