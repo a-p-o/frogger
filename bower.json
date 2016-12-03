@@ -1,0 +1,15 @@
+{
+  "name": "frogger",
+  "homepage": "https://github.com/a-p-o/frogger",
+  "authors": [
+    "Alex Ordonez <me@ordonezalex.com>"
+    "Malak Patel <patelmalak@gmail.com>"
+  ],
+  "description": "A web-based arcade game.",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "umbrella": "^2.6.7"
+  }
+}
