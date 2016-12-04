@@ -11,16 +11,15 @@ body {
     margin-right: auto;
 }
 
-
 #player {
     width: 50px;
     height: 50px;
     background-image: url('../images/frog.png');
     background-size: contain;
     display: block;
-    position: absolute;
-    top: 650px;
-    left: 600px;
+    position: relative;
+    top: 200px;
+    left: 250px;
 }
 
 #water {
@@ -28,18 +27,159 @@ body {
     height: 291px;
     background-color: #00f;
     display: block;
-    position: absolute;
-    top: 58px;
+    position: relative;
+    top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+#small-log1{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 650px;
+
+}
+
+#small-log2{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 106px;
+    left: 650px;
+}
+#small-log3{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 156px;
+    left: 650px;
+}
+#small-log4{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 206px;
+    left: 650px;
+}
+#small-log5{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 256px;
+    left: 650px;
+}
+#small-log6{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 306px;
+    left: 650px;
+}
+
+#log1{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 450px;
+
+}
+#log2{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 106px;
+    left: 450px;
+
+}
+#log3{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 156px;
+    left: 450px;
+
+}
+#log4{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 206px;
+    left: 450px;
+
+}
+#log5{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 256px;
+    left: 450px;
+
+}
+#log6{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 306px;
+    left: 450px;
+
 }
 #end-grass{
     width:600px;
     height: 58px;
     background-color: #0f0;
     display: block;
-    position: absolute;
-    top: 0px;
+    position: relative;
+    top: -299px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,9 +188,9 @@ body {
     height: 50px;
     background-color: #00d;
     display: block;
-    position: absolute;
-    top: 8px;
-    left: 600px;
+    position: relative;
+    top: -405px;
+    left: 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,8 +199,8 @@ body {
     height: 58px;
     background-color: #0f0;
     display: block;
-    position: absolute;
-    top: 650px;
+    position: relative;;
+    top: 300px;
     margin-left: auto;
     margin-right: auto;
 }
