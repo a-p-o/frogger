@@ -11,16 +11,15 @@ body {
     margin-right: auto;
 }
 
-
 #player {
     width: 50px;
     height: 50px;
     background-image: url('../images/frog.png');
     background-size: contain;
     display: block;
-    position: absolute;
-    top: 650px;
-    left: 600px;
+    position: relative;
+    top: 200px;
+    left: 250px;
 }
 
 #water {
@@ -28,18 +27,334 @@ body {
     height: 291px;
     background-color: #00f;
     display: block;
-    position: absolute;
-    top: 58px;
+    position: relative;
+    top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#car1{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 605px;
+  left: 350px;
+}
+
+#car2{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 555px;
+  left: 350px;
+}
+#car3{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 505px;
+  left: 350px;
+}
+#car4{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 455px;
+  left: 350px;
+}
+#car5{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car5.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 405px;
+  left: 350px;
+}
+#car6{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car6.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 355px;
+  left: 350px;
+}
+
+#car7{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  top: 605px;
+  left: 850px;
+}
+
+#car8{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  top: 555px;
+  left: 850px;
+}
+
+#car9{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  top: 505px;
+  left: 850px;
+}
+
+#car10{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  top: 455px;
+  left: 850px;
+}
+#car11{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car5.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  top: 405px;
+  left: 850px;
+}
+#car12{
+  width:70px;
+  height:50px;
+  background-image: url('../images/car6.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  top: 355px;
+  left: 850px;
+}
+
+#small-log1{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 650px;
+
+}
+
+#small-log2{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 106px;
+    left: 650px;
+}
+#small-log3{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 156px;
+    left: 650px;
+}
+#small-log4{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 206px;
+    left: 650px;
+}
+#small-log5{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 256px;
+    left: 650px;
+}
+#small-log6{
+    width:120px;
+    height:50px;
+    background-image: url('../images/small-log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 306px;
+    left: 650px;
+}
+
+#log1{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 450px;
+
+}
+#log2{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 106px;
+    left: 450px;
+
+}
+#log3{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 156px;
+    left: 450px;
+
+}
+#log4{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 206px;
+    left: 450px;
+
+}
+#log5{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 256px;
+    left: 450px;
+
+}
+#log6{
+    width:200px;
+    height:50px;
+    background-image: url('../images/log.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 306px;
+    left: 450px;
+
 }
 #end-grass{
     width:600px;
     height: 58px;
     background-color: #0f0;
     display: block;
-    position: absolute;
-    top: 0px;
+    position: relative;
+    top: -299px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,9 +363,9 @@ body {
     height: 50px;
     background-color: #00d;
     display: block;
-    position: absolute;
-    top: 8px;
-    left: 600px;
+    position: relative;
+    top: -405px;
+    left: 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,8 +374,8 @@ body {
     height: 58px;
     background-color: #0f0;
     display: block;
-    position: absolute;
-    top: 650px;
+    position: relative;;
+    top: 300px;
     margin-left: auto;
     margin-right: auto;
 }
